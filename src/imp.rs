@@ -21,6 +21,17 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
 
     builder.add_rules(
         &[
+            Semantic("operator"),
+            Semantic("arithmetic"),
+            Semantic("comparison"),
+            Semantic("logical"),
+            Semantic("bitwise"),
+        ],
+        palette.operators(),
+    );
+
+    builder.add_rules(
+        &[
             Semantic("string"),
             Semantic("character"),
             Semantic("number"),

@@ -13,6 +13,26 @@
 			"foreground": "#AB8AC1",
 			"fontStyle": ""
 		},
+		"operator": {
+			"foreground": "#DEDEDE",
+			"fontStyle": ""
+		},
+		"arithmetic": {
+			"foreground": "#DEDEDE",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#DEDEDE",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#DEDEDE",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#DEDEDE",
+			"fontStyle": ""
+		},
 		"string": {
 			"foreground": "#83A300",
 			"fontStyle": ""

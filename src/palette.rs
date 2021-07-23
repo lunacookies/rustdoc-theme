@@ -18,6 +18,10 @@ pub(crate) trait Palette {
     fn macros(&self) -> Oklch;
     fn attributes(&self) -> Oklch;
     fn try_operators(&self) -> Oklch;
+
+    fn operators(&self) -> Oklch {
+        self.base(BaseScale::Fg)
+    }
 }
 
 impl Palette for Dark {

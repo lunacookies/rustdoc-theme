@@ -13,6 +13,26 @@
 			"foreground": "#8959A8",
 			"fontStyle": ""
 		},
+		"operator": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"arithmetic": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
 		"string": {
 			"foreground": "#718C00",
 			"fontStyle": ""
