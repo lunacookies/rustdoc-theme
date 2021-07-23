@@ -1,0 +1,13 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "rustdoc dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#353535",
+		"editor.foreground": "#DEDEDE",
+		"foreground": "#DEDEDE"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {},
+	"tokenColors": []
+}

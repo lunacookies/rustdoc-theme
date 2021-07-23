@@ -1,0 +1,29 @@
+{
+  "name": "rustdoc-theme",
+  "displayName": "rustdoc theme",
+  "description": "themes from rustdoc in VS Code",
+  "publisher": "arzg",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/arzg/rustdoc-theme"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rustdoc dark-color-theme.json"
+      }
+    ]
+  }
+}
