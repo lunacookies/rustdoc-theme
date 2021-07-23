@@ -13,6 +13,11 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &impl Palette) {
         &["editor.foreground", "foreground"],
         palette.base(BaseScale::Fg),
     );
+
+    builder.add_workspace_rule(
+        "rust_analyzer.inlayHints.foreground",
+        palette.base(BaseScale::FadedFg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
@@ -69,4 +74,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
 
     builder.add_rule(Semantic("macro"), palette.macros());
     builder.add_rule(Semantic("*.attribute"), palette.attributes());
+
+    builder.add_rule(Semantic("comment"), palette.base(BaseScale::FadedFg));
 }

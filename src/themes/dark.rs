@@ -7,6 +7,7 @@ impl Dark {
     pub(crate) fn base(&self, scale: BaseScale) -> Oklch {
         let value = match scale {
             BaseScale::Bg => 0.0,
+            BaseScale::FadedFg => 0.5,
             BaseScale::Fg => 1.0,
         };
 

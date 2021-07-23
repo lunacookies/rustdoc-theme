@@ -5,7 +5,8 @@
 	"colors": {
 		"editor.background": "#FFFFFF",
 		"editor.foreground": "#000000",
-		"foreground": "#000000"
+		"foreground": "#000000",
+		"rust_analyzer.inlayHints.foreground": "#808080"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -103,6 +104,10 @@
 		},
 		"*.attribute": {
 			"foreground": "#BB061E",
+			"fontStyle": ""
+		},
+		"comment": {
+			"foreground": "#808080",
 			"fontStyle": ""
 		}
 	},

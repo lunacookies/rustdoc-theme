@@ -175,6 +175,7 @@ impl Palette for Light {
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum BaseScale {
     Bg,
+    FadedFg,
     Fg,
 }
 
