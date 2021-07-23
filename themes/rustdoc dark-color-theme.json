@@ -36,6 +36,10 @@
 		"macro": {
 			"foreground": "#3E999F",
 			"fontStyle": ""
+		},
+		"*.attribute": {
+			"foreground": "#EE6868",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
