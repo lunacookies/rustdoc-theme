@@ -5,8 +5,7 @@ use tincture::{Hue, Oklch};
 pub(crate) trait Palette {
     fn base(&self, scale: BaseScale) -> Oklch;
     fn keywords(&self) -> Oklch;
-    fn strings(&self) -> Oklch;
-    fn numbers(&self) -> Oklch;
+    fn literals(&self) -> Oklch;
     fn enum_members(&self) -> Oklch;
     fn function_declarations(&self) -> Oklch;
     fn types(&self) -> Oklch;
@@ -28,10 +27,7 @@ impl Palette for Dark {
     fn keywords(&self) -> Oklch {
         self.dark_purple()
     }
-    fn strings(&self) -> Oklch {
-        self.green()
-    }
-    fn numbers(&self) -> Oklch {
+    fn literals(&self) -> Oklch {
         self.green()
     }
     fn enum_members(&self) -> Oklch {
@@ -79,10 +75,7 @@ impl Palette for Light {
     fn keywords(&self) -> Oklch {
         self.purple()
     }
-    fn strings(&self) -> Oklch {
-        self.olive()
-    }
-    fn numbers(&self) -> Oklch {
+    fn literals(&self) -> Oklch {
         self.olive()
     }
     fn enum_members(&self) -> Oklch {

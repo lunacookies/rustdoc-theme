@@ -20,11 +20,13 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
     builder.add_rule(Semantic("keyword"), palette.keywords());
 
     builder.add_rules(
-        &[Semantic("string"), Semantic("character")],
-        palette.strings(),
+        &[
+            Semantic("string"),
+            Semantic("character"),
+            Semantic("number"),
+        ],
+        palette.literals(),
     );
-
-    builder.add_rule(Semantic("number"), palette.numbers());
 
     builder.add_rules(
         &[Semantic("boolean"), Semantic("enumMember")],
