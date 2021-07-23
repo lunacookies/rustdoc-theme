@@ -53,6 +53,10 @@
 			"foreground": "#B78CF2",
 			"fontStyle": ""
 		},
+		"namespace.declaration": {
+			"foreground": "#BDA000",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#3E999F",
 			"fontStyle": ""
