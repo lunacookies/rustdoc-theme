@@ -1,4 +1,4 @@
-use crate::themes::{Dark, Light};
+use crate::themes::{Ayu, Dark, Light};
 use std::ops::Range;
 use tincture::{Hue, Oklch};
 
@@ -20,6 +20,55 @@ pub(crate) trait Palette {
 
     fn operators(&self) -> Oklch {
         self.base(BaseScale::Fg)
+    }
+}
+
+impl Palette for Ayu {
+    fn base(&self, scale: BaseScale) -> Oklch {
+        self.base(scale)
+    }
+    fn keywords(&self) -> Oklch {
+        self.orange()
+    }
+    fn literals(&self) -> Oklch {
+        self.green()
+    }
+    fn enum_members(&self) -> Oklch {
+        self.orange()
+    }
+    fn function_declarations(&self) -> Oklch {
+        self.yellow()
+    }
+    fn types(&self) -> Oklch {
+        self.pink()
+    }
+    fn enums(&self) -> Oklch {
+        self.turquoise()
+    }
+    fn interfaces(&self) -> Oklch {
+        self.blue()
+    }
+    fn type_aliases(&self) -> Oklch {
+        self.lilac()
+    }
+    fn builtin_types(&self) -> Oklch {
+        self.dark_blue()
+    }
+    fn namespace_declarations(&self) -> Oklch {
+        self.indigo()
+    }
+    fn constants(&self) -> Oklch {
+        self.dark_indigo()
+    }
+    fn macros(&self) -> Oklch {
+        self.purple()
+    }
+    fn attributes(&self) -> Oklch {
+        self.base(BaseScale::Fg)
+    }
+
+    fn operators(&self) -> Oklch {
+        self.keywords()
     }
 }
 

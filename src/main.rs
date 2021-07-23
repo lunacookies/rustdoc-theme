@@ -6,6 +6,7 @@ use mottle::theme::{ThemeBuilder, Type};
 use std::io;
 
 fn main() -> io::Result<()> {
+    gen_theme("rustdoc ayu", themes::Ayu, Type::Dark)?;
     gen_theme("rustdoc dark", themes::Dark, Type::Dark)?;
     gen_theme("rustdoc light", themes::Light, Type::Light)?;
 

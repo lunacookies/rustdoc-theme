@@ -20,6 +20,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "rustdoc ayu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rustdoc ayu-color-theme.json"
+      },
+      {
         "label": "rustdoc dark",
         "uiTheme": "vs-dark",
         "path": "./themes/rustdoc dark-color-theme.json"

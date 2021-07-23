@@ -1,0 +1,106 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "rustdoc ayu",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#101418",
+		"editor.foreground": "#E2DECF",
+		"foreground": "#E2DECF"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"operator": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"arithmetic": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#B8CC52",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#B8CC52",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#B8CC52",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"enumMember": {
+			"foreground": "#FF7733",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#FDD687",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#FDD687",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#FFA0A5",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#99E0C9",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#39AFD7",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#CFBCF5",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#32889B",
+			"fontStyle": ""
+		},
+		"namespace.declaration": {
+			"foreground": "#ACCCF9",
+			"fontStyle": ""
+		},
+		"variable.constant": {
+			"foreground": "#6380A0",
+			"fontStyle": ""
+		},
+		"variable.static": {
+			"foreground": "#6380A0",
+			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#A37ACC",
+			"fontStyle": ""
+		},
+		"*.attribute": {
+			"foreground": "#E2DECF",
+			"fontStyle": ""
+		}
+	},
+	"tokenColors": []
+}
