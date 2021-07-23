@@ -33,6 +33,14 @@
 			"foreground": "#EE6868",
 			"fontStyle": ""
 		},
+		"function.declaration": {
+			"foreground": "#2BAB63",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#2BAB63",
+			"fontStyle": ""
+		},
 		"interface": {
 			"foreground": "#B78CF2",
 			"fontStyle": ""

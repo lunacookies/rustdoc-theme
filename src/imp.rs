@@ -30,6 +30,14 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.red(),
     );
 
+    builder.add_rules(
+        &[
+            Semantic("function.declaration"),
+            Semantic("method.declaration"),
+        ],
+        palette.dark_green(),
+    );
+
     builder.add_rule(Semantic("interface"), palette.purple());
 
     builder.add_rule(Semantic("macro"), palette.teal());
