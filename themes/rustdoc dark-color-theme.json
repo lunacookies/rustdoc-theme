@@ -25,6 +25,14 @@
 			"foreground": "#83A300",
 			"fontStyle": ""
 		},
+		"boolean": {
+			"foreground": "#EE6868",
+			"fontStyle": ""
+		},
+		"enumMember": {
+			"foreground": "#EE6868",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#3E999F",
 			"fontStyle": ""

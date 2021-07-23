@@ -8,6 +8,10 @@ impl Palette {
         oklch(scale.lightness(), scale.chroma(), 265.0)
     }
 
+    pub(crate) fn red(&self) -> Oklch {
+        oklch(0.6824157, 0.16623303, 22.491032)
+    }
+
     pub(crate) fn green(&self) -> Oklch {
         oklch(0.667013, 0.16276555, 122.56789)
     }
