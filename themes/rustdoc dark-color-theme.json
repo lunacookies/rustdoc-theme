@@ -65,6 +65,14 @@
 			"foreground": "#BDA000",
 			"fontStyle": ""
 		},
+		"variable.constant": {
+			"foreground": "#82A5C9",
+			"fontStyle": ""
+		},
+		"variable.static": {
+			"foreground": "#82A5C9",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#3E999F",
 			"fontStyle": ""

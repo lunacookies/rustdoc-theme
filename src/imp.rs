@@ -45,6 +45,10 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("typeAlias"), palette.orange());
     builder.add_rule(Semantic("builtinType"), palette.blue());
     builder.add_rule(Semantic("namespace.declaration"), palette.yellow());
+    builder.add_rules(
+        &[Semantic("variable.constant"), Semantic("variable.static")],
+        palette.light_blue(),
+    );
 
     builder.add_rule(Semantic("macro"), palette.teal());
     builder.add_rule(Semantic("*.attribute"), palette.red());
