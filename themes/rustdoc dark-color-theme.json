@@ -72,6 +72,10 @@
 		"*.attribute": {
 			"foreground": "#EE6868",
 			"fontStyle": ""
+		},
+		"operator.controlFlow": {
+			"foreground": "#FF9011",
+			"bold": true
 		}
 	},
 	"tokenColors": []
