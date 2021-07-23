@@ -41,6 +41,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("struct"), palette.turquoise());
     builder.add_rule(Semantic("enum"), palette.light_green());
     builder.add_rule(Semantic("interface"), palette.purple());
+    builder.add_rule(Semantic("typeAlias"), palette.orange());
+    builder.add_rule(Semantic("builtinType"), palette.blue());
     builder.add_rule(Semantic("namespace.declaration"), palette.yellow());
 
     builder.add_rule(Semantic("macro"), palette.teal());

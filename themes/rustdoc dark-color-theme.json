@@ -53,6 +53,14 @@
 			"foreground": "#B78CF2",
 			"fontStyle": ""
 		},
+		"typeAlias": {
+			"foreground": "#FF7F00",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#43AEC7",
+			"fontStyle": ""
+		},
 		"namespace.declaration": {
 			"foreground": "#BDA000",
 			"fontStyle": ""
