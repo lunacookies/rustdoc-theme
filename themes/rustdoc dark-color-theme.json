@@ -24,6 +24,10 @@
 		"number": {
 			"foreground": "#83A300",
 			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#3E999F",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

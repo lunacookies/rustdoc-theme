@@ -24,4 +24,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rule(Semantic("number"), palette.green());
+
+    builder.add_rule(Semantic("macro"), palette.teal());
 }
