@@ -38,6 +38,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.dark_green(),
     );
 
+    builder.add_rule(Semantic("enum"), palette.light_green());
     builder.add_rule(Semantic("interface"), palette.purple());
 
     builder.add_rule(Semantic("macro"), palette.teal());

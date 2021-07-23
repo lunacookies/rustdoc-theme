@@ -41,6 +41,10 @@
 			"foreground": "#2BAB63",
 			"fontStyle": ""
 		},
+		"enum": {
+			"foreground": "#82B089",
+			"fontStyle": ""
+		},
 		"interface": {
 			"foreground": "#B78CF2",
 			"fontStyle": ""
