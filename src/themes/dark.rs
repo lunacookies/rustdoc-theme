@@ -16,50 +16,50 @@ impl Dark {
     }
 
     pub(crate) fn red(&self) -> Oklch {
-        oklch(0.6824157, 0.16623303, 22.491032)
+        oklch(0.7, 0.15, 20.0)
     }
 
     pub(crate) fn orange(&self) -> Oklch {
-        oklch(0.7304144, 0.18637057, 52.56002)
+        oklch(0.7, 0.17, 55.0)
     }
 
     pub(crate) fn yellow(&self) -> Oklch {
-        oklch(0.7104691, 0.14609218, 96.012085)
+        oklch(0.7, 0.14, 95.0)
     }
 
-    pub(crate) fn green(&self) -> Oklch {
-        oklch(0.667013, 0.16276555, 122.56789)
+    pub(crate) fn olive(&self) -> Oklch {
+        oklch(0.7, 0.16, 125.0)
     }
 
-    pub(crate) fn light_green(&self) -> Oklch {
-        oklch(0.7134207, 0.07480228, 148.8825)
+    pub(crate) fn sea_green(&self) -> Oklch {
+        oklch(0.7, 0.07, 150.0)
     }
 
-    pub(crate) fn dark_green(&self) -> Oklch {
-        oklch(0.65620345, 0.15235366, 153.44058)
+    pub(crate) fn felt(&self) -> Oklch {
+        oklch(0.65, 0.15, 155.0)
     }
 
     pub(crate) fn turquoise(&self) -> Oklch {
-        oklch(0.7304256, 0.117167644, 189.98401)
+        oklch(0.7, 0.12, 190.0)
     }
 
     pub(crate) fn teal(&self) -> Oklch {
-        oklch(0.63131934, 0.085633695, 201.28671)
+        oklch(0.6, 0.09, 200.0)
     }
 
     pub(crate) fn blue(&self) -> Oklch {
-        oklch(0.69966334, 0.102494046, 216.1858)
+        oklch(0.7, 0.1, 215.0)
     }
 
-    pub(crate) fn light_blue(&self) -> Oklch {
-        oklch(0.70906216, 0.06555244, 249.50156)
+    pub(crate) fn indigo(&self) -> Oklch {
+        oklch(0.7, 0.07, 250.0)
     }
 
     pub(crate) fn purple(&self) -> Oklch {
-        oklch(0.72096276, 0.14965181, 302.22723)
+        oklch(0.7, 0.09, 300.0)
     }
 
-    pub(crate) fn dark_purple(&self) -> Oklch {
-        oklch(0.6834442, 0.087084174, 311.37656)
+    pub(crate) fn deep_purple(&self) -> Oklch {
+        oklch(0.7, 0.15, 300.0)
     }
 }

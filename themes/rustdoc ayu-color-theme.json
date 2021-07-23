@@ -10,91 +10,91 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"keyword": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"operator": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"arithmetic": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"comparison": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"logical": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"bitwise": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"string": {
-			"foreground": "#B8CC52",
+			"foreground": "#B2CB52",
 			"fontStyle": ""
 		},
 		"character": {
-			"foreground": "#B8CC52",
+			"foreground": "#B2CB52",
 			"fontStyle": ""
 		},
 		"number": {
-			"foreground": "#B8CC52",
+			"foreground": "#B2CB52",
 			"fontStyle": ""
 		},
 		"boolean": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"enumMember": {
-			"foreground": "#FF7733",
+			"foreground": "#F6722B",
 			"fontStyle": ""
 		},
 		"function.declaration": {
-			"foreground": "#FDD687",
+			"foreground": "#FDD990",
 			"fontStyle": ""
 		},
 		"method.declaration": {
-			"foreground": "#FDD687",
+			"foreground": "#FDD990",
 			"fontStyle": ""
 		},
 		"struct": {
-			"foreground": "#FFA0A5",
+			"foreground": "#FCA0A7",
 			"fontStyle": ""
 		},
 		"enum": {
-			"foreground": "#99E0C9",
+			"foreground": "#98DFC6",
 			"fontStyle": ""
 		},
 		"interface": {
-			"foreground": "#39AFD7",
+			"foreground": "#30ADD6",
 			"fontStyle": ""
 		},
 		"typeAlias": {
-			"foreground": "#CFBCF5",
+			"foreground": "#D5C3FB",
 			"fontStyle": ""
 		},
 		"builtinType": {
-			"foreground": "#32889B",
+			"foreground": "#398BA9",
 			"fontStyle": ""
 		},
 		"namespace.declaration": {
-			"foreground": "#ACCCF9",
+			"foreground": "#AFD1FC",
 			"fontStyle": ""
 		},
 		"variable.constant": {
-			"foreground": "#6380A0",
+			"foreground": "#6882A4",
 			"fontStyle": ""
 		},
 		"variable.static": {
-			"foreground": "#6380A0",
+			"foreground": "#6882A4",
 			"fontStyle": ""
 		},
 		"macro": {
-			"foreground": "#A37ACC",
+			"foreground": "#A279CE",
 			"fontStyle": ""
 		},
 		"*.attribute": {

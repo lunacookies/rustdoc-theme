@@ -77,25 +77,25 @@ impl Palette for Dark {
         self.base(scale)
     }
     fn keywords(&self) -> Oklch {
-        self.dark_purple()
+        self.purple()
     }
     fn literals(&self) -> Oklch {
-        self.green()
+        self.olive()
     }
     fn enum_members(&self) -> Oklch {
         self.red()
     }
     fn function_declarations(&self) -> Oklch {
-        self.dark_green()
+        self.felt()
     }
     fn types(&self) -> Oklch {
         self.turquoise()
     }
     fn enums(&self) -> Oklch {
-        self.light_green()
+        self.sea_green()
     }
     fn interfaces(&self) -> Oklch {
-        self.purple()
+        self.deep_purple()
     }
     fn type_aliases(&self) -> Oklch {
         self.orange()
@@ -107,7 +107,7 @@ impl Palette for Dark {
         self.yellow()
     }
     fn constants(&self) -> Oklch {
-        self.light_blue()
+        self.indigo()
     }
     fn macros(&self) -> Oklch {
         self.teal()
