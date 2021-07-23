@@ -20,9 +20,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "dark",
+        "label": "rustdoc dark",
         "uiTheme": "vs-dark",
         "path": "./themes/rustdoc dark-color-theme.json"
+      },
+      {
+        "label": "rustdoc light",
+        "uiTheme": "vs",
+        "path": "./themes/rustdoc light-color-theme.json"
       }
     ]
   }

@@ -1,0 +1,90 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "rustdoc light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#FFFFFF",
+		"editor.foreground": "#000000",
+		"foreground": "#000000"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#8959A8",
+			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#718C00",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#718C00",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#718C00",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#C82829",
+			"fontStyle": ""
+		},
+		"enumMember": {
+			"foreground": "#C82829",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#9A6E31",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#9A6E31",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#AD448E",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#508157",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#7C5AF3",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#BA5D00",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#2C8093",
+			"fontStyle": ""
+		},
+		"namespace.declaration": {
+			"foreground": "#4D76AE",
+			"fontStyle": ""
+		},
+		"variable.constant": {
+			"foreground": "#546E8A",
+			"fontStyle": ""
+		},
+		"variable.static": {
+			"foreground": "#546E8A",
+			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#3E999F",
+			"fontStyle": ""
+		},
+		"*.attribute": {
+			"foreground": "#C82829",
+			"fontStyle": ""
+		},
+		"operator.controlFlow": {
+			"foreground": "#FF9011",
+			"bold": true
+		}
+	},
+	"tokenColors": []
+}

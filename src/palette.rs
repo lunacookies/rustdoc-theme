@@ -1,4 +1,4 @@
-use crate::themes::Dark;
+use crate::themes::{Dark, Light};
 use std::ops::Range;
 use tincture::{Hue, Oklch};
 
@@ -63,6 +63,57 @@ impl Palette for Dark {
     }
     fn macros(&self) -> Oklch {
         self.teal()
+    }
+    fn attributes(&self) -> Oklch {
+        self.red()
+    }
+    fn try_operators(&self) -> Oklch {
+        self.orange2()
+    }
+}
+
+impl Palette for Light {
+    fn base(&self, scale: BaseScale) -> Oklch {
+        self.base(scale)
+    }
+    fn keywords(&self) -> Oklch {
+        self.purple()
+    }
+    fn strings(&self) -> Oklch {
+        self.olive()
+    }
+    fn numbers(&self) -> Oklch {
+        self.olive()
+    }
+    fn enum_members(&self) -> Oklch {
+        self.red()
+    }
+    fn function_declarations(&self) -> Oklch {
+        self.brown()
+    }
+    fn types(&self) -> Oklch {
+        self.pink()
+    }
+    fn enums(&self) -> Oklch {
+        self.green()
+    }
+    fn interfaces(&self) -> Oklch {
+        self.deep_purple()
+    }
+    fn type_aliases(&self) -> Oklch {
+        self.orange()
+    }
+    fn builtin_types(&self) -> Oklch {
+        self.teal()
+    }
+    fn namespace_declarations(&self) -> Oklch {
+        self.blue()
+    }
+    fn constants(&self) -> Oklch {
+        self.dark_blue()
+    }
+    fn macros(&self) -> Oklch {
+        self.cyan()
     }
     fn attributes(&self) -> Oklch {
         self.red()

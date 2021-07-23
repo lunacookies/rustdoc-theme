@@ -7,6 +7,7 @@ use std::io;
 
 fn main() -> io::Result<()> {
     gen_theme("rustdoc dark", themes::Dark, Type::Dark)?;
+    gen_theme("rustdoc light", themes::Light, Type::Light)?;
 
     Ok(())
 }
