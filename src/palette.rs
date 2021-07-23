@@ -1,63 +1,74 @@
+use crate::themes::Dark;
 use std::ops::Range;
 use tincture::{Hue, Oklch};
 
-pub(crate) struct Palette;
+pub(crate) trait Palette {
+    fn base(&self, scale: BaseScale) -> Oklch;
+    fn keywords(&self) -> Oklch;
+    fn strings(&self) -> Oklch;
+    fn numbers(&self) -> Oklch;
+    fn enum_members(&self) -> Oklch;
+    fn function_declarations(&self) -> Oklch;
+    fn types(&self) -> Oklch;
+    fn enums(&self) -> Oklch;
+    fn interfaces(&self) -> Oklch;
+    fn type_aliases(&self) -> Oklch;
+    fn builtin_types(&self) -> Oklch;
+    fn namespace_declarations(&self) -> Oklch;
+    fn constants(&self) -> Oklch;
+    fn macros(&self) -> Oklch;
+    fn attributes(&self) -> Oklch;
+    fn try_operators(&self) -> Oklch;
+}
 
-impl Palette {
-    pub(crate) fn base(&self, scale: BaseScale) -> Oklch {
-        oklch(scale.lightness(), scale.chroma(), 265.0)
+impl Palette for Dark {
+    fn base(&self, scale: BaseScale) -> Oklch {
+        self.base(scale)
     }
-
-    pub(crate) fn red(&self) -> Oklch {
-        oklch(0.6824157, 0.16623303, 22.491032)
+    fn keywords(&self) -> Oklch {
+        self.dark_purple()
     }
-
-    pub(crate) fn orange(&self) -> Oklch {
-        oklch(0.7304144, 0.18637057, 52.56002)
+    fn strings(&self) -> Oklch {
+        self.green()
     }
-
-    pub(crate) fn orange2(&self) -> Oklch {
-        oklch(0.7573304, 0.17531186, 59.37576)
+    fn numbers(&self) -> Oklch {
+        self.green()
     }
-
-    pub(crate) fn yellow(&self) -> Oklch {
-        oklch(0.7104691, 0.14609218, 96.012085)
+    fn enum_members(&self) -> Oklch {
+        self.red()
     }
-
-    pub(crate) fn green(&self) -> Oklch {
-        oklch(0.667013, 0.16276555, 122.56789)
+    fn function_declarations(&self) -> Oklch {
+        self.dark_green()
     }
-
-    pub(crate) fn light_green(&self) -> Oklch {
-        oklch(0.7134207, 0.07480228, 148.8825)
+    fn types(&self) -> Oklch {
+        self.turquoise()
     }
-
-    pub(crate) fn dark_green(&self) -> Oklch {
-        oklch(0.65620345, 0.15235366, 153.44058)
+    fn enums(&self) -> Oklch {
+        self.light_green()
     }
-
-    pub(crate) fn turquoise(&self) -> Oklch {
-        oklch(0.7304256, 0.117167644, 189.98401)
+    fn interfaces(&self) -> Oklch {
+        self.purple()
     }
-
-    pub(crate) fn teal(&self) -> Oklch {
-        oklch(0.63131934, 0.085633695, 201.28671)
+    fn type_aliases(&self) -> Oklch {
+        self.orange()
     }
-
-    pub(crate) fn blue(&self) -> Oklch {
-        oklch(0.69966334, 0.102494046, 216.1858)
+    fn builtin_types(&self) -> Oklch {
+        self.blue()
     }
-
-    pub(crate) fn light_blue(&self) -> Oklch {
-        oklch(0.70906216, 0.06555244, 249.50156)
+    fn namespace_declarations(&self) -> Oklch {
+        self.yellow()
     }
-
-    pub(crate) fn purple(&self) -> Oklch {
-        oklch(0.72096276, 0.14965181, 302.22723)
+    fn constants(&self) -> Oklch {
+        self.light_blue()
     }
-
-    pub(crate) fn dark_purple(&self) -> Oklch {
-        oklch(0.6834442, 0.087084174, 311.37656)
+    fn macros(&self) -> Oklch {
+        self.teal()
+    }
+    fn attributes(&self) -> Oklch {
+        self.red()
+    }
+    fn try_operators(&self) -> Oklch {
+        self.orange2()
     }
 }
 
@@ -67,24 +78,7 @@ pub(crate) enum BaseScale {
     Fg,
 }
 
-impl BaseScale {
-    fn lightness(self) -> f32 {
-        lerp(self.value(), 0.33..0.9)
-    }
-
-    fn chroma(self) -> f32 {
-        0.0
-    }
-
-    fn value(self) -> f32 {
-        match self {
-            Self::Bg => 0.0,
-            Self::Fg => 1.0,
-        }
-    }
-}
-
-fn oklch(l: f32, c: f32, h: f32) -> Oklch {
+pub(crate) fn oklch(l: f32, c: f32, h: f32) -> Oklch {
     Oklch {
         l,
         c,
@@ -92,6 +86,6 @@ fn oklch(l: f32, c: f32, h: f32) -> Oklch {
     }
 }
 
-fn lerp(x: f32, range: Range<f32>) -> f32 {
+pub(crate) fn lerp(x: f32, range: Range<f32>) -> f32 {
     x * (range.end - range.start) + range.start
 }
