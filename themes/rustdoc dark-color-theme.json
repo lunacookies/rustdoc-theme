@@ -12,6 +12,18 @@
 		"keyword": {
 			"foreground": "#AB8AC1",
 			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#83A300",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#83A300",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#83A300",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

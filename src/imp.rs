@@ -17,4 +17,11 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("keyword"), palette.purple());
+
+    builder.add_rules(
+        &[Semantic("string"), Semantic("character")],
+        palette.green(),
+    );
+
+    builder.add_rule(Semantic("number"), palette.green());
 }
