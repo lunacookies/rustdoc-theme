@@ -65,6 +65,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
         palette.constants(),
     );
 
+    builder.add_rule(Semantic("lifetime"), palette.lifetimes());
+
     builder.add_rule(Semantic("macro"), palette.macros());
     builder.add_rule(Semantic("*.attribute"), palette.attributes());
 }

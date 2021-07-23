@@ -93,6 +93,10 @@
 			"foreground": "#7DA2C9",
 			"fontStyle": ""
 		},
+		"lifetime": {
+			"foreground": "#EC7C0E",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#2B9095",
 			"fontStyle": ""

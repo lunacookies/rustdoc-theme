@@ -15,6 +15,7 @@ pub(crate) trait Palette {
     fn builtin_types(&self) -> Oklch;
     fn namespace_declarations(&self) -> Oklch;
     fn constants(&self) -> Oklch;
+    fn lifetimes(&self) -> Oklch;
     fn macros(&self) -> Oklch;
     fn attributes(&self) -> Oklch;
 
@@ -66,6 +67,9 @@ impl Palette for Ayu {
     fn attributes(&self) -> Oklch {
         self.base(BaseScale::Fg)
     }
+    fn lifetimes(&self) -> Oklch {
+        self.orange()
+    }
 
     fn operators(&self) -> Oklch {
         self.keywords()
@@ -115,6 +119,9 @@ impl Palette for Dark {
     fn attributes(&self) -> Oklch {
         self.red()
     }
+    fn lifetimes(&self) -> Oklch {
+        self.orange()
+    }
 }
 
 impl Palette for Light {
@@ -159,6 +166,9 @@ impl Palette for Light {
     }
     fn attributes(&self) -> Oklch {
         self.red()
+    }
+    fn lifetimes(&self) -> Oklch {
+        self.orange()
     }
 }
 
