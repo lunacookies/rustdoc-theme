@@ -100,10 +100,6 @@
 		"*.attribute": {
 			"foreground": "#C82829",
 			"fontStyle": ""
-		},
-		"operator.controlFlow": {
-			"foreground": "#FF9011",
-			"bold": true
 		}
 	},
 	"tokenColors": []

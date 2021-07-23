@@ -17,7 +17,6 @@ pub(crate) trait Palette {
     fn constants(&self) -> Oklch;
     fn macros(&self) -> Oklch;
     fn attributes(&self) -> Oklch;
-    fn try_operators(&self) -> Oklch;
 
     fn operators(&self) -> Oklch {
         self.base(BaseScale::Fg)
@@ -67,9 +66,6 @@ impl Palette for Dark {
     fn attributes(&self) -> Oklch {
         self.red()
     }
-    fn try_operators(&self) -> Oklch {
-        self.orange2()
-    }
 }
 
 impl Palette for Light {
@@ -114,9 +110,6 @@ impl Palette for Light {
     }
     fn attributes(&self) -> Oklch {
         self.red()
-    }
-    fn try_operators(&self) -> Oklch {
-        self.orange2()
     }
 }
 

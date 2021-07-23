@@ -1,5 +1,4 @@
 use crate::palette::{BaseScale, Palette};
-use mottle::style::FontStyle;
 use mottle::theme::Scope::*;
 use mottle::theme::ThemeBuilder;
 
@@ -68,9 +67,4 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &impl Palette) {
 
     builder.add_rule(Semantic("macro"), palette.macros());
     builder.add_rule(Semantic("*.attribute"), palette.attributes());
-
-    builder.add_rule(
-        Semantic("operator.controlFlow"),
-        (palette.try_operators(), FontStyle::Bold),
-    );
 }

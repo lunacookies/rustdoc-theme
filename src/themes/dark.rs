@@ -23,10 +23,6 @@ impl Dark {
         oklch(0.7304144, 0.18637057, 52.56002)
     }
 
-    pub(crate) fn orange2(&self) -> Oklch {
-        oklch(0.7573304, 0.17531186, 59.37576)
-    }
-
     pub(crate) fn yellow(&self) -> Oklch {
         oklch(0.7104691, 0.14609218, 96.012085)
     }
