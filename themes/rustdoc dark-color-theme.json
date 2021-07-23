@@ -33,6 +33,10 @@
 			"foreground": "#EE6868",
 			"fontStyle": ""
 		},
+		"interface": {
+			"foreground": "#B78CF2",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#3E999F",
 			"fontStyle": ""

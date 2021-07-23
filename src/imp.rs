@@ -16,7 +16,7 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
-    builder.add_rule(Semantic("keyword"), palette.purple());
+    builder.add_rule(Semantic("keyword"), palette.dark_purple());
 
     builder.add_rules(
         &[Semantic("string"), Semantic("character")],
@@ -29,6 +29,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         &[Semantic("boolean"), Semantic("enumMember")],
         palette.red(),
     );
+
+    builder.add_rule(Semantic("interface"), palette.purple());
 
     builder.add_rule(Semantic("macro"), palette.teal());
     builder.add_rule(Semantic("*.attribute"), palette.red());
