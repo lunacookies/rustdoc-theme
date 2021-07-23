@@ -8,6 +8,11 @@
 		"foreground": "#DEDEDE"
 	},
 	"semanticHighlighting": true,
-	"semanticTokenColors": {},
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#AB8AC1",
+			"fontStyle": ""
+		}
+	},
 	"tokenColors": []
 }
